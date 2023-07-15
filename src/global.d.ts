@@ -13,3 +13,7 @@ declare module "*.gif" {
 declare module "*.mp4" {
   export default "" as string;
 }
+
+declare module "*.JPG" {
+  export default "" as string;
+}

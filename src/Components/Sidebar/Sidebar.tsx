@@ -1,5 +1,5 @@
 import { Line, SidebarBody, SocialIcon } from "./SidebarElements";
-import { FiGithub, FiLinkedin } from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
 
 const iconSize = 30;
 
@@ -10,12 +10,12 @@ const Sidebar = () => {
         {/* <SocialIcon href="mailto:martiuz77@gmail.com">
           <FiMail size={iconSize} />
         </SocialIcon> */}
-        <SocialIcon href="https://github.com/KaSpiros">
+        <SocialIcon href="https://github.com/Williamchao97">
           <FiGithub size={iconSize} />
         </SocialIcon>
-        <SocialIcon href="https://uk.linkedin.com/in/s-kalog">
+        {/* <SocialIcon href="https://uk.linkedin.com/in/s-kalog">
           <FiLinkedin size={iconSize} />
-        </SocialIcon>
+        </SocialIcon> */}
         <Line />
       </SidebarBody>
     </>

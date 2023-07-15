@@ -1,9 +1,9 @@
-// import photoOfMe from "./../../Assets/me.png";
+import photoOfMe from "./../../Assets/photome.jpg";
 import {
   AboutBody,
   AboutContainer,
   StyledHeading,
-  // Photo,
+  Photo,
   TextSection,
 } from "./AboutElements";
 
@@ -12,24 +12,19 @@ const About = () => {
     <>
       <AboutBody id="about">
         <AboutContainer>
-          <StyledHeading>Who I Am?</StyledHeading>
+          <StyledHeading>Who Am I?</StyledHeading>
           <TextSection>
-            I am a Software Developer with an MSc in Big data technologies 
-            and a BSc in Computer Science from Glasgow Caledonian University.
+            I am a senior full stack engineer with over 8 years of experience and 
+            during that period, I have developed various responsive web applications.
             <br />
             <br />
-            Currently, I'm working as a DevOps engineer for the world's largest
-            fleet management organization, Wex Inc. In my spare time I like to 
-            undertake freelance projects specialised on the MERN stack.
+            Creativity, accountability, integrity and perfectionism, these are my the biggest strength.
             <br />
-            <br />I am passionate about solving technical problems, researching
-            and developing new software and technologies. I undertake and
-            challenge myself to always improve, by being proactive, diligent,
-            responsible, and committed to finding the perfect solution to problems
+            <br />Enhancing technical skills and perfect collaboration ability make me an ideal candidate for any web development project.
           </TextSection>
         </AboutContainer>
         <AboutContainer>
-          {/* <Photo src={photoOfMe} /> */}
+          <Photo src={photoOfMe} />
         </AboutContainer>
       </AboutBody>
     </>

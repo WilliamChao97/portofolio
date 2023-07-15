@@ -3,12 +3,12 @@ import { WorkBody, WorkContainer } from "./WorkElements";
 import { StyledHeading } from "../About/AboutElements";
 
 // Import photos
-import dataYogiImg from "../../Assets/datayogi.png"
-import insightFuturesImg from "../../Assets/insightfutures.jpg"
-import wexImg from "../../Assets/wex.png"
+import wristbandStore from "../../Assets/WristbandStore.JPG"
+import musicAcademy from "../../Assets/MusicAcademy.JPG"
+import embedding from "../../Assets/Embeddingproject.jpg"
 
 const Work = () => {
-  const dataYogi: string[] = [
+  const wristbandStoreSkill: string[] = [
     "Javascript",
     "React",
     "Redux",
@@ -16,10 +16,13 @@ const Work = () => {
     "Express",
     "MongoDB",
     "Azure",
-    "Fullstack",
+    "WebSockets API",
+    "Metamask",
+    "Cloudflare",
+    "Tailwind CSS"
   ];
 
-  const insightFutures: string[] = [
+  const musicAcademySkill: string[] = [
     "Javascript",
     "Python",
     "React",
@@ -34,17 +37,17 @@ const Work = () => {
     "sci-pi",
   ];
 
-  const wex: string[] = [
-    "Ansible",
-    "Python",
-    "Spark",
-    "Terraform",
-    "Jenkins",
-    "AWS",
-    "Postgresql",
-    "Kubernetes",
-    "Docker",
-    "DevOps engineer",
+  const embeddingSkill: string[] = [
+    "React.js",
+    "Node.js",
+    "MongoDB",
+    "GraphQL",
+    "RESTful APIs",
+    "AWS services",
+    "Contentful",
+    "Gatsby.js",
+    "D3.js",
+    "TDD",
   ];
 
   return (
@@ -56,34 +59,34 @@ const Work = () => {
         <div style={{ height: 40 }}></div>
         <Project
           invertedOrientation={true}
-          projectName="Wex Inc."
-          projectDescription="Currently working as DevOps engineer and developer for Wex Inc Europe. WEX is a global leader in financial technology solutions. We simplify the complexities of payment systems across continents and industries—including Fleet, Corporate Payments, and Benefits."
-          image={wexImg}
+          projectName="Embedding Project"
+          projectDescription="I have built the Embedding project at Pieoneers Inc. As a global public-benefit research project, the aim of the Embedding Project is to help companies embed social and environmental factors across their operations and decision-making by creating rigorous assessments, guides, and tools to help the company do its part on sustainability."
+          image={embedding}
           video={""}
-          stackItems={wex}
+          stackItems={embeddingSkill}
         ></Project>
         <Project
           invertedOrientation={false}
-          projectName="DataYogi"
-          projectDescription="Work in progress... DataYogi is a project that aims to revolutionise the data industry and give users the right to use their data as they see fit."
-          image={dataYogiImg}
+          projectName="WristbandStore"
+          projectDescription="Impactful And High-Visibility Wristband Website. A modern-era web platform designed specifically for custom silicone wristbands, printed wristbands, rubber wristbands, and multicolor wristbands."
+          image={wristbandStore}
           video={""}
-          stackItems={dataYogi}
+          stackItems={wristbandStoreSkill}
         ></Project>
         <Project
           invertedOrientation={true}
-          projectName="Insight Futures"
-          projectDescription="As part of my master degree, I worked with Insight Futures to help them create a fullstack environment with real users and real time data analysis."
-          image={insightFuturesImg}
+          projectName="Groove Academy"
+          projectDescription="Located in Winnipeg, Groove Academy offers music lessons for all ages and skill sets. Web Sharx had the pleasure to develop a brand-new custom web design catered to their user-base. In addition, Web Sharx helped support SEO strategy with the move from an existing to new website launch."
+          image={musicAcademy}
           video={""}
-          stackItems={insightFutures}
+          stackItems={musicAcademySkill}
         ></Project>
         <br />
         <h1 style={{ color: "white", paddingBottom: "1.2em" }}>
           You can check more of my work here {" "}
           <a
             style={{ color: "white", alignSelf: "center" }}
-            href="https://github.com/KaSpiros"
+            href="https://github.com/WilliamChao97"
           >
             Github
           </a>

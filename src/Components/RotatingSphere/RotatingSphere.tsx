@@ -8,7 +8,7 @@ function RotatingSphere(props: any) {
       tagCloud(
         ".tagcloud-container",
         [
-          "Python","Spark","Kafka",
+          "TDD","Jest","Cypress",
           "NodeJS","MERN",
           "DevOps","Ansible","Jenkins",
           "Kubernetes","Docker","AWS",

@@ -11,9 +11,7 @@ import {
 } from "./HomeElements";
 
 const typewritterStrings: string[] = [
-  "Software Developer",
-  "Data Engineer",
-  "DevOps Engineer",
+  "Full Stack Engineer"
 ];
 
 const Home = () => {
@@ -30,7 +28,7 @@ const Home = () => {
   /**
    * Add every letter of the name as separate tag.
    */
-  const name: string = "Spiros \n";
+  const name: string = "William \n";
   for (let i = 0; i < name.length; i += 1) {
     if (name[i] === "\n") {
       letters.push(

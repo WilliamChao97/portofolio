@@ -9,24 +9,23 @@ const Skills = () => {
         <SkillsContainer>
           <StyledHeading>Skills</StyledHeading>
           <Text>
-            My journey began as a young man trying to piece things together in 
-            my first RaspberryPI. Since a little boy I was always curious 
-            about computers and their capabilities.
+            I embarked on my journey as a young individual, eagerly piecing together my first Raspberry Pi. 
+            Ever since I was a child, I held a deep curiosity about computers and their 
+            limitless capabilities.
             <br />
             <br />
-            I have been coding for 4 years and I first started to code simple 
-            commands in JavaScript. Since then I have expanded my knowledge, 
-            and I can comfortably use Python with science libraries (e.g. sci-pi, numpy...).
-            Good knowledge of SQL databases and expert knowledge 
-            of NoSQL databases such as MongoDB
-            I possess strong knowledge in Data
-            Structures, Algorithms, and OOP principles. 
+            During my tenure at the esteemed University of British Columbia, I fostered my passion
+            for software development by enrolling in their information technology faculty. 
+            This opportunity enabled me to cultivate a profound comprehension of programming languages, 
+            database management, and web development, ultimately contributing significantly to my 
+            accomplishments as a proficient web developer.
             <br />
             <br />
-            I have achieved the highest award in both degrees (BSc, MSc) and have
-            in depth knowledge of the MERN stack as well as Big Data technologies.
-            Working with WexInc allowed me to learn base skills about DevOps 
-            technologies like, Kubernetes, Ansible, Docker, Terraform, Jenkins, etc.
+            Attaining the highest distinction in my Bachelor's Degree in IT stands as a testament to 
+            my dedication and expertise. Additionally, I possess extensive knowledge of the MERN stack along 
+            with proficiency in Big Data technologies. My professional experience has been shaped by 
+            collaborations with reputable software organizations such as Web Sharx, RisingMax, and 
+            Pieoneers.
           </Text>
         </SkillsContainer>
         <SkillsContainer justify="center">
