@@ -9,7 +9,7 @@ function RotatingSphere(props: any) {
         ".tagcloud-container",
         [
           "TDD","Jest","Cypress",
-          "NodeJS","MERN",
+          "NodeJS","MERN","Svelte",
           "DevOps","Ansible","Jenkins",
           "Kubernetes","Docker","AWS",
           "GCP","Azure","NoSQL",
@@ -17,7 +17,7 @@ function RotatingSphere(props: any) {
           "Typescript","Javascript",
           "SQL","React","CSS","HTML",
           "Git","Jira","Trelo",
-          "Microservices","XProgramming"
+          "Microservices","FaunaDB",
         ],
         {
           // eslint-disable-next-line no-restricted-globals
