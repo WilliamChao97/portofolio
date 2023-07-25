@@ -67,7 +67,7 @@ const Work = () => {
         ></Project>
         <Project
           invertedOrientation={false}
-          projectName="WristbandStore"
+          projectName=" Impactful And High-Visibility Wristband Buddy website"
           projectDescription="Impactful And High-Visibility Wristband Website. A modern-era web platform designed specifically for custom silicone wristbands, printed wristbands, rubber wristbands, and multicolor wristbands."
           image={wristbandStore}
           video={""}
@@ -75,7 +75,7 @@ const Work = () => {
         ></Project>
         <Project
           invertedOrientation={true}
-          projectName="Groove Academy"
+          projectName="Groove Music Academy"
           projectDescription="Located in Winnipeg, Groove Academy offers music lessons for all ages and skill sets. Web Sharx had the pleasure to develop a brand-new custom web design catered to their user-base. In addition, Web Sharx helped support SEO strategy with the move from an existing to new website launch."
           image={musicAcademy}
           video={""}
