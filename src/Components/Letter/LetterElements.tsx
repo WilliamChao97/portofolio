@@ -4,11 +4,11 @@ export const CustomLetter = styled.div<{ animated?: boolean }>`
   color: white;
   font-size: 3.5em;
   display: inline-block;
-  font-weight: bold;
+  font-weight: 700;
   background-color: transparent;
   align-items: center;
   justify-content: center;
-  animation-duration: 1.2s;
+  animation-duration: 1.4s;
   animation-iteration-count: infinite;
   animation-fill-mode: backwards;
   margin: 0 auto 0 auto;
