@@ -46,7 +46,7 @@ export const AboutBody = styled.div`
 `;
 
 export const AboutContainer = styled.div`
-  padding-top: 3em;
+  padding-top: 3.5em;
   padding-left: 3.5rem;
   display: flex;
   flex-direction: column;
@@ -54,7 +54,7 @@ export const AboutContainer = styled.div`
   width: 50%;
 
   @media screen and (max-width: 768px) {
-    padding-top: 1em;
+    padding-top: 1.5em;
     padding-left: 0;
     align-self: center;
     width: auto;
@@ -63,7 +63,7 @@ export const AboutContainer = styled.div`
 
 export const StyledHeading = styled.h1`
   display: flex;
-  font-size: 4em;
+  font-size: 64px;
   align-items: center;
   color: yellowgreen;
 
@@ -81,7 +81,7 @@ export const StyledHeading = styled.h1`
     &:after {
       content: "";
       flex: 1;
-      background-color: #fff;
+      background-color: white;
       margin-left: 0.8em;
       height: 1px;
     }
