@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const ContactBody = styled.div`
   display: flex;
   flex-direction: row;
-  padding: 0px 7rem 0 7rem;
+  padding: 0px 112px 0 112px;
   min-height: 100%;
-  padding-bottom: 3rem;
+  padding-bottom: 48px;
   position: relative;
 
   &:before {
@@ -13,11 +13,11 @@ export const ContactBody = styled.div`
     font-family: "La Belle Aurore", cursive;
     color: #515152;
     font-size: 1.8rem;
-    left: 0.5em;
+    left: 8px;
     position: absolute;
 
     @media screen and (max-width: 768px) {
-      left: 0.5em;
+      left: 9px;
     }
   }
 
@@ -28,17 +28,17 @@ export const ContactBody = styled.div`
     font-size: 1.8rem;
     position: absolute;
     bottom: 0;
-    right: 0.5em;
+    right: 8px;
 
     @media screen and (max-width: 768px) {
-      left: 0.5em;
+      left: 8px;
     }
   }
 
   @media screen and (max-width: 1000px) {
     flex-direction: column;
     padding: 0;
-    padding-bottom: 3rem;
+    padding-bottom: 48px;
     align-items: center;
   }
 `;
@@ -57,13 +57,13 @@ export const LeftContainer = styled.div`
 `;
 
 export const RightContainer = styled.div`
-  padding-top: 4em;
+  padding-top: 64px;
   width: 30%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2em;
+  gap: 32px;
 
   @media screen and (max-width: 768px) {
     width: auto;
@@ -78,7 +78,7 @@ export const Form = styled.form`
 export const PersonInfo = styled.div`
   display: flex;
   flex-direction: row;
-  gap: 0.5em;
+  gap: 8px;
   width: 100%;
 
   @media screen and (max-width: 768px) {
