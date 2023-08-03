@@ -18,6 +18,7 @@ function RotatingSphere(props: any) {
           "SQL","React","CSS","HTML",
           "Git","Jira","Trelo",
           "Microservices","FaunaDB",
+          "GraphQL", "REST Api",
         ],
         {
           // eslint-disable-next-line no-restricted-globals
