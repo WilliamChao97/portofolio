@@ -11,7 +11,9 @@ import {
 } from "./HomeElements";
 
 const typewritterStrings: string[] = [
-  "Full Stack Engineer"
+  "Full Stack Engineer",
+  "Front End Engineer",
+  "DevOps Engineer"
 ];
 
 const Home = () => {
